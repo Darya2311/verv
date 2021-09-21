@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay-Thin.eot'),
+         url('../fonts/SFProDisplay-Thin.woff2') format('woff2'),
+         url('../fonts/SFProDisplay-Thin.woff') format('woff'),
+         url('../fonts/SFProDisplay-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+body {
+    width: 415px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "MyFont", sans-serif;
+}
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@import "_header.scss";
+@import "_slider.scss";
+@import "_options.scss";
+@import "_continue__button.scss";
+@import "_footer.scss";
+@import "_media.scss";
+@import "_dark-theme.scss";
+
+
+
+
+

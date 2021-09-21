@@ -1,0 +1,44 @@
+body.dark {
+  background-color: #000000;
+  .container {
+    .slider {
+      background: linear-gradient(225deg, #262526 0%, #19181A 100%);
+      .slider-line {
+        .slide {
+          .slider__header {
+            .slider__header-main, .slider__header-name{
+              color: white;
+            }
+          }
+          .slider__feedback {
+            p {
+              color: white;
+            }
+          }
+        }        
+      }
+    }
+  
+    .options {
+      .option {
+        background: #373640;
+        color: #fff;
+      }
+    }
+    .options .pressed {
+      cursor: pointer;
+        background: linear-gradient(225deg, #894AC9 0%, #4D46B1 100%);
+        color: #fff;
+  }
+  
+    .continue__button {
+      button {
+      background: linear-gradient(225deg, #542285 0%, #222266 100%);
+      }
+    }
+  
+    footer {
+      color:#7D7D80;
+    }
+  }
+}
