@@ -109,6 +109,7 @@
         display: flex;
         flex-direction: column;
         animation: appearance 10s ease-out;
+        position: relative;
         .free {
           margin-bottom: 65px;
         } 
@@ -118,13 +119,13 @@
         .green {
           position: absolute;
           margin-left: 13px;
-          margin-top: 60%;
+          margin-top: 117px;
 
         }
         .red {
           position: absolute;
           margin-left: 13px;
-          margin-top: 25%;
+          margin-top: 48px;
         }
       }
     }
