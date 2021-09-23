@@ -73,11 +73,14 @@ continueBtn.addEventListener("click", pressContinue);
 
 
 
+
 const slideShow = document.querySelector(".slider");
 const sliderLine = document.querySelector(".slider-line");
 const images = document.querySelectorAll(".slider .slider-line .slide");
 let count = 0;
 let width;
+
+
 
 function init() {
   width = slideShow.offsetWidth;

@@ -78,17 +78,19 @@
         margin-bottom: 40px;
       }
     }
-    .path1 {
-      width: 100%;
-      position: absolute;
-      margin-top: -22px;
-      pointer-events: none;
-    }
-    .path {
-      width: 100%;
-      position: absolute;
-      margin-top: -20px;
-      pointer-events: none;
+    .for__images {
+      .path1 {
+        width: 100%;
+        position: absolute;
+        margin-top: -22px;
+        pointer-events: none;
+      }
+      .path {
+        width: 100%;
+        position: absolute;
+        margin-top: -20px;
+        pointer-events: none;
+      }
     }
     p {
       font-size: 12px;
@@ -125,7 +127,7 @@
         .red {
           position: absolute;
           margin-left: 13px;
-          margin-top: 48px;
+          margin-top: 46px;
         }
       }
     }
