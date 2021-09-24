@@ -26,15 +26,15 @@
         margin-top: -210px;
         right: 5%;
         .girl {
-          height: 250px;
+          height: 235px;
           }
         .logo {
-        margin-top: 40px;
+          margin-top: 40px;
           .free {
             margin-bottom: 45px;
           }
           .green {
-            margin-top: 93px;
+            margin-top: 96px;
           }
           .red {
             margin-top: 32px;
@@ -44,12 +44,11 @@
     }
   }
   .slider {
-    margin-top: -15%;
-    .slides {
-      width: 4000px;
+    margin-top: -17%;
+    padding: 20px;
+    .slider-line {
       .slide {
-        width: 335px;
-        padding: 20px 20px;
+        padding-right: 30px;
         .slider__header{ 
           margin-bottom: 10px;
         }
@@ -59,6 +58,11 @@
             img {
               margin-right: 3px;
             }
+          }
+        }
+        .slider__feedback {
+          p {
+            max-width: 90%;
           }
         }
       }
@@ -90,6 +94,9 @@
   body {
     .header {
       min-height: 30%;
+      .header__text {
+        margin-top: 0px;
+      }
       .header__weight {
         hr {
           margin-bottom: 5px;
@@ -128,21 +135,25 @@
       }
     }
     .slider {
-      height: 120px;
+      height: 110px;
       margin-top: -20%;
-      .slides {
-        padding: 0px 10px;
+      .slider-line {
         .slide {
-          width: 280px;
           .slider__header{ 
             margin-bottom: 7px;
           }
+
           .slider__rating  {
             margin-bottom: 9px;
             .icon {
               img {
                 margin-right: 3px;
               }
+            }
+          }
+          .slider__feedback {
+            p {
+              max-width: 100%;
             }
           }
         }

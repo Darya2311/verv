@@ -17,6 +17,11 @@ body.dark {
           }
         }        
       }
+      & .slider__buttons {
+        & button {
+          color: white;
+        }
+      }
     }
   
     .options {

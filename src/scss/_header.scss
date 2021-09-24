@@ -78,19 +78,17 @@
         margin-bottom: 40px;
       }
     }
-    .for__images {
-      .path1 {
-        width: 100%;
-        position: absolute;
-        margin-top: -22px;
-        pointer-events: none;
-      }
-      .path {
-        width: 100%;
-        position: absolute;
-        margin-top: -20px;
-        pointer-events: none;
-      }
+    .path1 {
+      width: 100%;
+      position: absolute;
+      margin-top: -22px;
+      pointer-events: none;
+    }
+    .path {
+      width: 100%;
+      position: absolute;
+      margin-top: -20px;
+      pointer-events: none;
     }
     p {
       font-size: 12px;
